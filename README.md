@@ -57,3 +57,25 @@ npm run server
 
 3. Add your Data.re file
 4. Render a list of the place names
+
+## 5. Optional Prop
+
+1. Render the image of each place. Depending on if the attributionUrl is available either render a Link or just the text.
+
+2. Render the phone (which is not always in the list)
+
+3. Pro lesson: Render the description as markdown
+
+Internal note: https://github.com/ReasonVienna/reason-conf/blob/master/src/layouts/util.re
+
+## 6. Styling
+
+1. Style a component using bs-emotion, bs-css or something similar.
+
+## 7. Manage state
+
+1. Allow users to filter the attractions using an input field.
+
+2. Pro lesson: add labels per place and allow to filter by them
+
+Hint: For advanced form management you might like https://github.com/alexfedoseev/re-formality

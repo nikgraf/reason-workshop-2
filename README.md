@@ -31,3 +31,11 @@ Create a file Data.re and inside create a list of places with the following prop
 - phone (optional)
 - email (optional)
 - coordinates containing lat and lng
+
+## 3. Manipulate Data
+
+1. Create an Array of names based on the places data structure. Print out the array for verification.
+
+Try it without and then use fast-pipe for this task.
+
+2. Pro lesson: create a search funtion. You can give it a string and it will find items based on the place name. For an empty string it returns all entries. Note: There is String and Js.String when using BuckleScript

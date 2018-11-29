@@ -18,3 +18,16 @@ I recommend to use the playground for this example: https://reasonml.github.io/e
 Alternative playground: https://sketch.sh/
 
 Tip: You may use lists, arrays, tuples, variants for these tasks
+
+## 2. Data structures II
+
+Create a file Data.re and inside create a list of places with the following properties
+
+- id (generate uuids via https://www.uuidgenerator.net/)
+- name
+- description
+- image containing an url, attribution and attributionUrl (optional)
+- address
+- phone (optional)
+- email (optional)
+- coordinates containing lat and lng

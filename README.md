@@ -39,3 +39,21 @@ Create a file Data.re and inside create a list of places with the following prop
 Try it without and then use fast-pipe for this task.
 
 2. Pro lesson: create a search funtion. You can give it a string and it will find items based on the place name. For an empty string it returns all entries. Note: There is String and Js.String when using BuckleScript
+
+## 4. ReasonReact
+
+1. Setup the editor -> https://reasonml.github.io/docs/en/editor-plugins
+2. Create a new ReasonReact BuckleScript project -> https://reasonml.github.io/reason-react/docs/en/installation
+
+```
+npm install -g bs-platform
+bsb -init my-react-app -theme react
+cd my-react-app && npm install && npm start
+# in another tab
+npm run webpack
+# in another tab
+npm run server
+```
+
+3. Add your Data.re file
+4. Render a list of the place names
